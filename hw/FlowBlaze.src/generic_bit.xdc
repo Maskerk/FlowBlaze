@@ -1,0 +1,40 @@
+#
+# Copyright (c) 2015 University of Cambridge
+# All rights reserved.
+#
+# This software was developed by Stanford University and the University of Cambridge Computer Laboratory
+# under National Science Foundation under Grant No. CNS-0855268,
+# the University of Cambridge Computer Laboratory under EPSRC INTERNET Project EP/H040536/1 and
+# by the University of Cambridge Computer Laboratory under DARPA/AFRL contract FA8750-11-C-0249 ("MRC2"),
+# as part of the DARPA MRC research programme.
+#
+# @NETFPGA_LICENSE_HEADER_START@
+#
+# Licensed to NetFPGA C.I.C. (NetFPGA) under one or more contributor
+# license agreements.  See the NOTICE file distributed with this work for
+# additional information regarding copyright ownership.  NetFPGA licenses this
+# file to you under the NetFPGA Hardware-Software License, Version 1.0 (the
+# "License"); you may not use this file except in compliance with the
+# License.  You may obtain a copy of the License at:
+#
+#   http://www.netfpga-cic.org
+#
+# Unless required by applicable law or agreed to in writing, Work distributed
+# under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+# CONDITIONS OF ANY KIND, either express or implied.  See the License for the
+# specific language governing permissions and limitations under the License.
+#
+# @NETFPGA_LICENSE_HEADER_END@
+#
+
+
+
+#set_property port_width 104 [get_debug_ports u_ila_1_0/probe2]
+#connect_debug_port u_ila_1_0/probe2 [get_nets [list {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[0]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[1]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[2]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[3]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[4]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[5]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[6]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[7]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[8]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[9]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[10]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[11]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[12]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[13]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[14]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[15]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[16]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[17]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[18]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[19]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[20]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[21]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[22]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[23]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[24]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[25]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[26]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[27]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[28]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[29]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[30]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[31]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[32]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[33]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[34]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[35]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[36]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[37]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[38]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[39]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[40]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[41]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[42]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[43]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[44]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[45]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[46]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[47]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[48]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[49]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[50]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[51]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[52]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[53]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[54]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[55]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[56]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[57]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[58]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[59]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[60]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[61]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[62]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[63]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[64]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[65]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[66]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[67]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[68]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[69]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[70]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[71]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[72]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[73]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[74]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[75]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[76]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[77]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[78]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[79]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[80]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[81]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[82]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[83]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[84]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[85]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[86]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[87]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[88]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[89]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[90]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[91]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[92]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[93]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[94]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[95]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[96]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[97]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[98]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[99]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[100]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[101]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[102]} {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[103]}]]
+#create_debug_port u_ila_1_0 probe
+#connect_debug_port u_ila_1_0/probe2 [get_nets [list {nf_datapath_0/openstate156_i/openstate_core_i/HT1/value[*]}]]
+
+
+
+
+
