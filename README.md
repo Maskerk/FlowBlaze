@@ -9,4 +9,5 @@ The directories are organized as follows:
 
 * controller: RYU controller extensions
 * hw: NetFPGA implementation
+* xtrac: High level language compiler to JSON
 
